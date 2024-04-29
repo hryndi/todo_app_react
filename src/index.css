@@ -22,9 +22,11 @@
   height: 100svh;
   display: grid;
   place-content: center;
+  background: radial-gradient(circle, #578ca2 0%, #314d40 65%);
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   height: 100%;
   min-height: 100vh;
   line-height: 1.5;

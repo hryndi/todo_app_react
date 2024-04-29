@@ -1,11 +1,16 @@
 import Button from "@mui/material/Button";
 interface AddBtnProps {
   addHandler: () => void;
+  children: string;
 }
-const AddBtn = ({ addHandler }: AddBtnProps) => {
+const AddBtn = ({ addHandler, children }: AddBtnProps) => {
   return (
-    <Button onClick={addHandler} variant="contained">
-      +
+    <Button
+      style={{ borderRadius: "3.333rem", fontSize: "1rem" }}
+      onClick={addHandler}
+      variant="contained"
+    >
+      {children}
     </Button>
   );
 };

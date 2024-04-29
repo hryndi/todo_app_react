@@ -3,7 +3,7 @@
 // }
 
 const DateInfo = () => {
-  return <h2>{new Date().toDateString()}</h2>;
+  return <h2 style={{ wordSpacing: "5px" }}>{new Date().toDateString()}</h2>;
 };
 
 export default DateInfo;
